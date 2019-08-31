@@ -131,7 +131,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="FB RATE:"
+                            android:text="@string/rcp_fbrate"
                             android:gravity="center"
                             />
 
@@ -182,7 +182,7 @@
 
                         <Button
                             android:layout_width="wrap_content"
-                            android:text="FOLLOW"
+                            android:text="@string/rcp_follow"
                             android:layout_gravity="right"
                             android:id="@+id/rc_followbtn"
                             android:layout_marginEnd="8dp"
@@ -231,7 +231,7 @@
                     android:layout_width="wrap_content"
                     android:layout_gravity="center"
                     android:layout_height="wrap_content"
-                    android:text="Followers:"
+                    android:text="@string/rcp_followers"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -256,7 +256,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Following:"
+                    android:text="@string/rcp_following"
                     />
                 <TextView
                     android:layout_width="wrap_content"
