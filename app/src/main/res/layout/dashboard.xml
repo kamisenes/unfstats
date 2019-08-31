@@ -40,7 +40,7 @@
                         android:gravity="center"
                         android:layout_height="wrap_content"
                         android:textColor="@color/White"
-                        android:text="UNFOLLOWERS"
+                        android:text="@string/db_unfollowers"
                         />
 
                     <TextView
@@ -76,7 +76,7 @@
                             android:layout_height="wrap_content"
                             android:textColor="@color/White"
                             android:layout_marginStart="10dp"
-                            android:text="New Unfollowers"
+                            android:text="@string/db_new_unf"
                             />
                     </LinearLayout>
                     <LinearLayout
@@ -123,7 +123,7 @@
                         android:gravity="center"
                         android:layout_height="wrap_content"
                         android:textColor="@color/White"
-                        android:text="FOLLOWERS"
+                        android:text="@string/db_followers"
                         />
 
                     <TextView
@@ -159,7 +159,7 @@
                             android:layout_height="wrap_content"
                             android:textColor="@color/White"
                             android:layout_marginStart="6dp"
-                            android:text="New Followers"
+                            android:text=@string/db_new_follow"
                             />
                     </LinearLayout>
                     <LinearLayout
@@ -213,7 +213,7 @@
                         android:gravity="center"
                         android:layout_height="wrap_content"
                         android:textColor="@color/White"
-                        android:text="FOLLOWING"
+                        android:text="@string/db_following"
                         />
 
                     <TextView
@@ -249,7 +249,7 @@
                             android:layout_height="wrap_content"
                             android:textColor="@color/White"
                             android:layout_marginStart="10dp"
-                            android:text="New Following"
+                            android:text="@string/db_new_following"
                             />
                     </LinearLayout>
                     <LinearLayout
@@ -296,7 +296,7 @@
                         android:gravity="center"
                         android:layout_height="wrap_content"
                         android:textColor="@color/White"
-                        android:text="NONFOLLOWBACKS"
+                        android:text="@string/db_nonfollowback"
                         />
 
                     <TextView
@@ -346,7 +346,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="IDontFollowBack"
+                    android:text="@string/db_idontfollowwback"
 
                     />
 
@@ -392,7 +392,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="Blocked"
+                    android:text="@string/db_blocked"
                     android:layout_marginStart="10dp"
 
 
@@ -442,7 +442,7 @@
                     android:textSize="17sp"
                     android:layout_marginStart="10dp"
 
-                    android:text="Muted"
+                    android:text="@string/db_muted"
 
                     />
 
@@ -488,7 +488,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="Tweets Sent"
+                    android:text="@string/db_tweetsent"
                     android:layout_marginStart="10dp"
 
 
@@ -537,7 +537,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="Joined Twitter"
+                    android:text="@string/db_joinedtweetter"
                     android:layout_marginStart="10dp"
 
                     />
@@ -583,7 +583,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="Tweet Analyze"
+                    android:text="@string/title_tweetanalyze"
 
                     />
 
@@ -626,7 +626,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="Retweets"
+                    android:text="@string/title_tweetanalyze_rt"
 
                     />
 
@@ -655,7 +655,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="Likes"
+                    android:text="@string/title_tweetanalyze_lk"
 
                     />
 
@@ -687,7 +687,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="17sp"
-                    android:text="Tweets/Days"
+                    android:text="@string/title_tweetanalyze_td"
 
                     />
 
@@ -722,7 +722,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_height="wrap_content"
-            android:text="Follower/Unfollower Stats"
+            android:text="@string/title_followersunf"
             android:background="@color/DeepSkyBlue"
             android:textStyle="bold"
             android:textColor="@color/White"
@@ -742,7 +742,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_height="wrap_content"
-            android:text="Best Friends"
+            android:text="@string/title_bestfr"
             android:background="@color/LimeGreen"
             android:textStyle="bold"
             android:textColor="@color/White"
@@ -762,7 +762,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_height="wrap_content"
-            android:text="Most Mentions"
+            android:text="@string/title_mostmen"
             android:background="@color/Orange"
             android:textStyle="bold"
             android:textColor="@color/White"
@@ -781,7 +781,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_height="wrap_content"
-            android:text="Device Stats"
+            android:text="@string/title_devicest"
             android:background="@color/MediumPurple"
             android:textStyle="bold"
             android:textColor="@color/White"
@@ -800,7 +800,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_height="wrap_content"
-            android:text="Daily Stats"
+            android:text="@string/title_dailyst"
             android:background="@color/MediumSeaGreen"
             android:textStyle="bold"
             android:textColor="@color/White"
