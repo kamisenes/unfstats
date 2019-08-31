@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_dashbord" />
+        <item
+            android:id="@+id/nav_unfollowers"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_unfollowers" />
+        <item
+            android:id="@+id/nav_followers"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_followers" />
+        <item
+            android:id="@+id/nav_following"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_following" />
+        <item
+            android:id="@+id/nav_nonfollowback"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_non_followback" />
+        <item
+            android:id="@+id/nav_idontfollowback"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_idontnon_followback" />
+        <item
+            android:id="@+id/nav_blocked"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_blocked" />
+        <item
+            android:id="@+id/nav_muted"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_muted" />
+        <item
+            android:id="@+id/nav_updatedata"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_update_data" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_logout" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_payment" />
+    </group>
+
+
+</menu>
