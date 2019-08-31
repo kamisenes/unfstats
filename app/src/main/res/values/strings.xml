@@ -33,6 +33,10 @@
     <string name="db_followers">Followers</string>
     <string name="db_following">Following</string>
     <string name="db_nonfollowback">NonFollowBack</string>
+	<string name="db_new_unf">New Unfollowers</string>
+    <string name="db_new_follow">New Followers</string>
+    <string name="db_new_following">New Following</string>
+
 
     <string name="db_idontfollowwback">IDontFollowBack</string>
     <string name="db_blocked">Blocked</string>
